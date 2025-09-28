@@ -1,16 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <style>
-      h1 { color: blue; }
-      p { color: rgb(199, 94, 155); }
-    </style>
-    <meta charset="utf-8">
-    <title>Progate</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+     <link rel="stylesheet" href="./style.css" />
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 class="title">HTML & CSS の開発環境を用意しよう！</h1>
-    <p>自分のPCでWebページを開発する方法を学習しましょう</p>
-    <p>とても難しいと思います</p>
-</body>
+    <div class="dashboard-rensyu">
+      <aside class="sidebar">
+        <a href="#" class="sidebar-home" deta-tab="home">
+          <span class="ri-home-line"></span>
+          <span>Home</span>
+        </a>
+      </aside> 
+      <main class="main-content">
+        <section class="cntent-section" id="home">
+          <header class="section-header">
+            <div class="profile-circle">
+              <span class="ri-user-smile-line"></span>
+            </div>
+            <h1 class="section-title">Welcome to Your Personal Dashboard</h1>
+            <p class="section-subtitle">Make your daily life more convenient and enjoyable</p>
+  
+          </header>
+          <div class="section-body">
+            <div class="section-description">
+              <p>
+                This dashboard is a tool to enrich your daily life. You can easily use essential features such as diary entries, memo management, and checking weather information.
+              </p>
+              <p>
+                Small daily records become irreplaceable memories, and efficient task management leads to fulfilling days. Please use this as a partner that supports your everyday life.
+              </p>
+
+            </div>
+          </div>
+        </section>
+      </main>
+      
+     
+
+    </div>  
+  </body>
 </html>
